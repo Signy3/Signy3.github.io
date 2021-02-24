@@ -1,0 +1,191 @@
+body {
+    background-color: #232323;
+    background-position: top center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    font-family: 'Open Sans', sans-serif;
+    color: #fff;
+    background-image: url("bg-image.jpg");
+}
+
+h1 {
+    font-family: 'Squada One', cursive;
+    font-size: 90px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+h2 {
+    font-family: 'Squada One', cursive;
+    font-size: 50px;
+    font-weight: regular;
+}
+
+h3 {
+    font-family: 'Squada One', cursive;
+    font-size: 30px;
+}
+
+h4 {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+}
+
+li {
+    list-style:circle;
+}
+
+header {
+    text-align: center;
+    padding: 82px 0px;
+    border-bottom: 30px solid #dd3333;
+}
+
+.logo {
+    width: 400px;
+    border: 10px solid #fff;
+}
+
+nav {
+    background-color: #fff;
+    position: fixed;
+    text-align: right;
+    top: 0px;
+    width: 100%;
+    color: #dd3333;
+    padding: 0px 20px;
+    box-sizing: border-box;
+}
+
+nav li {
+    display: inline-block;
+    width: 60px;
+    margin: 10px;
+    background-color: #dd3333;
+    padding: 10px;
+    text-align: center;
+    transition: 200ms;
+}
+
+nav li:hover {
+    background-color: #1e73be;
+    transition: 200ms;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+}
+
+main {
+    width: 960px;
+    margin: 0 auto;
+}
+
+.sections {
+padding: 20px;
+box-sizing: border-box;
+margin: 150px 0px;
+background-color: rgba(255, 255, 255, 0.2);
+}
+
+.palette {
+    text-align: center;
+}
+
+.palette div {
+    display: inline-block;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    text-align: center;
+    padding: 50px 20px;
+    box-sizing: border-box;
+    margin: 10px;
+    transition: 100ms;
+}
+
+.palette div:hover {
+transform: rotate(45deg);
+transition: 100ms;
+}
+
+.paint1 {
+    background-color: #dd3333;
+}
+
+.paint2 {
+    background-color: #1e73be;
+}
+
+.paint3 {
+    background-color: #ffffff;
+    color: #121212;
+}
+
+.paint4 {
+    background-color: #737373;
+}
+
+.paint5 {
+    background-color: #121212;
+}
+
+h2.inlinetitle {
+    display: inline;
+    vertical-align: top;
+    margin-right: 10px;
+}
+
+h2.intro {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+    font-weight: 200;
+}
+
+
+.styles h1, .stylesheading, .styles h3, .styles h4, .styles h5 {
+    color: #dd3333;
+}
+
+.fonts h3, .fonts h4 {
+    color: #dd3333;
+}
+
+.headings p {
+    font-family: 'Squada One', cursive;
+    font-size: 45px;
+    padding: 5px;
+    display: inline;
+}
+
+.bodytext {
+    margin: 70px 0px;
+}
+
+.light {
+    font-weight: 200;
+}
+
+.regular {
+    font-weight: 500;
+}
+
+.italic {
+    font-style: italic;
+}
+
+.bold {
+    font-weight: 700;
+
+}
+
+footer {
+    background-color: #1e73be;
+    height: 300px;
+    padding: 20px 50px;
+    text-align: center;
+}
+footer a {
+    color: #fff;
+}
